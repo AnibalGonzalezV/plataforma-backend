@@ -1,0 +1,19 @@
+{
+	"name": "plataforma-backend",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/AnibalGonzalezV/plataforma-backend.git",
+	"author": "AnibalGonzalezV <165087800+AnibalGonzalezV@users.noreply.github.com>",
+	"license": "MIT",
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"libs/*"
+	],
+	"dependencies": {
+		"@nestjs/config": "^4.0.2",
+		"@nestjs/typeorm": "^11.0.0",
+		"pg": "^8.14.1",
+		"typeorm": "^0.3.22"
+	}
+}
